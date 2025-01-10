@@ -2,7 +2,7 @@ environment: stage
 
 deployment:
   image:
-    tag: 0
+    tag: 1
   replicas: 1
   env:
     redis_host: aatt2-stage-elascache-rep-group.onkjq2.ng.0001.use1.cache.amazonaws.com
